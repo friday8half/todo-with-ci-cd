@@ -1,5 +1,9 @@
 language: node_js
+node_js:
+  - 12
 dist: xenial
+before_install:
+  - rvm install 2.2.2
 before_script:
   - npm install
   - npm run test

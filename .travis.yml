@@ -1,0 +1,5 @@
+language: node_js
+dist: xenial
+before_script:
+  - npm install
+  - npm run test

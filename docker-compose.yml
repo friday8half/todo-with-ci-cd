@@ -1,0 +1,9 @@
+version: '3.0'
+
+services:
+  server:
+    image: todo-with-ci-cd:1.0.0
+    volumes:
+      - .:/server
+    ports:
+      - 3000:3000
